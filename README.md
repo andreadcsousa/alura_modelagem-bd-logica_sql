@@ -52,7 +52,7 @@ Enquanto no modelo conceitual são utilizados os termos `entidade`, `atributos` 
     Termos como: cliente, livros, editora, estoque e pedidos se tornam entidades (sejam elas fortes ou fracas).
     Os dados que se encaixam no escopo dessas entidades são tratados como atributos.
 
-    Um cliente, por exemplo, possui informações pessoais que o identifica no ato do cadastro e da compra, como:
+    O cliente, por exemplo, possui informações pessoais que o identifica no ato do cadastro e da compra, como:
     nome, telefone, e-mail e endereço (sejam eles simples, multivalorados ou compostos).
     A partir dessa e de outras informações criam-se os relacionamentos das entidades.
 
