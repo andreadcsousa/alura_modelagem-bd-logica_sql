@@ -89,9 +89,16 @@ O `modelo físico` utiliza tabelas reais na sua modelagem, trabalhando com propr
 
 ***Relembrando o modelo lógico:***
 
-    O modelo lógico trabalha com os dados de forma mais organizada, pois utiliza tabelas nas representações das entidades (agora chamadas de relações). Os campos principais são identificados com suas respectivas chaves primárias e/ou estrangeiras (com diferenças na cor das chaves para representar as relações fortes e fracas). Já as ligações tem sua cardinalidade representada de maneira mais significativa.
+    O modelo lógico trabalha com os dados de forma mais organizada.
+    Pois utiliza tabelas nas representações das entidades (ou relações).
+    Os campos principais são identificados com suas respectivas chaves.
+    Com diferenças na cor das chaves para representar as relações fortes e fracas.
+    Já as ligações tem sua cardinalidade representada de maneira mais significativa.
 
-    Além disso, o modelo lógico pode ser convertido em modelo físico, sem a necessidade de realizar uma nova modelagem, adicionando apenas as características dos campos e as demais definições com a linguagem SQL. É mais um passo importante rumo a formação do banco de dados.
+    Além disso, o modelo lógico pode ser convertido em modelo físico.
+    Sem a necessidade de realizar uma nova modelagem.
+    Adicionando as características dos campos e demais definições com SQL.
+    É mais um passo importante rumo a formação do banco de dados.
 
 ***Para criar uma tabela no Power Architect, deve-se:***
 
