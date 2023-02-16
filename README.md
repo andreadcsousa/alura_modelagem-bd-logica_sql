@@ -149,23 +149,23 @@ No modelo físico, os antes denominados atributos e campos, agora são chamados 
 
 ### **Preenchendo as tabelas**
 
-![Tabela cliente](Imagens/cliente.jpg)  
-A `tabela cliente` possui dados que receberão apenas o tipo varchar, isso porque os dados são essencialmente alfanuméricos. Inclusive o telefone, que pode receber símbolos como hífen e parênteses.
+A `tabela cliente` possui dados que receberão apenas o tipo varchar, isso porque os dados são essencialmente alfanuméricos. Inclusive o telefone, que pode receber símbolos como hífen e parênteses.  
+![Tabela cliente](Imagens/cliente.jpg)
 
-![Tabelas item e pedido](Imagens/pedido.jpg)  
-As tabelas `item_pedido` e `pedido` possuem dados em varchar, inteiro e decimal. Isso porque elas possuem chave primária (para a tabela pedido). A quantidade de item do pedido recebe um valor inteiro porque não existe "meio" item. E recebem o tipo decimal no valor do item e no valor do pedido.
+As tabelas `item_pedido` e `pedido` possuem dados em varchar, inteiro e decimal. Isso porque elas possuem chave primária (para a tabela pedido). A quantidade de item do pedido recebe um valor inteiro porque não existe "meio" item. E recebem o tipo decimal no valor do item e no valor do pedido.  
+![Tabelas item e pedido](Imagens/pedido.jpg)
 
-![Tabela livro](Imagens/livro.jpg)  
-A `tabela livro` recebe varchar de 10, 25 e 50 caracteres em algumas colunas, inteiros para o ano de publicação do livro e no código ISBN, e decimal para o valor do livro. Sem possibilidade de valores nulos no registro.
+A `tabela livro` recebe varchar de 10, 25 e 50 caracteres em algumas colunas, inteiros para o ano de publicação do livro e no código ISBN, e decimal para o valor do livro. Sem possibilidade de valores nulos no registro.  
+![Tabela livro](Imagens/livro.jpg)
 
-![Tabela editora](Imagens/editora.jpg)  
-A `tabela editora`, por ser uma entidade forte, recebe sua chave primária. Nome de contato e e-mail com varchar de 50 caracteres. E, diferente da tabela cliente, ao menos um número de telefone precisa ser registrado, no tipo varchar com 14 caracteres cada.
+A `tabela editora`, por ser uma entidade forte, recebe sua chave primária. Nome de contato e e-mail com varchar de 50 caracteres. E, diferente da tabela cliente, ao menos um número de telefone precisa ser registrado, no tipo varchar com 14 caracteres cada.  
+![Tabela editora](Imagens/editora.jpg)
 
-![Tabela estoque](Imagens/estoque.jpg)  
-A `tabela estoque` recebe, inicialmente, apenas a quantidade de estoque. Quando forem feitas as ligações, ela passará a possuir duas chaves estrangeiras: os códigos do livro e da editora.
+A `tabela estoque` recebe, inicialmente, apenas a quantidade de estoque. Quando forem feitas as ligações, ela passará a possuir duas chaves estrangeiras: os códigos do livro e da editora.  
+![Tabela estoque](Imagens/estoque.jpg)
 
-![Tabelas pf e pj](Imagens/pf_pj.jpg)  
-As tabelas `pessoa física` e `pessoa jurídica` levam o mesmo princípio do estoque. Receberão uma chave primária da tabela cliente. E possuem colunas em varchar com 15 e 20 caracteres, respectivamente.
+As tabelas `pessoa física` e `pessoa jurídica` levam o mesmo princípio do estoque. Receberão uma chave primária da tabela cliente. E possuem colunas em varchar com 15 e 20 caracteres, respectivamente.  
+![Tabelas pf e pj](Imagens/pf_pj.jpg)
 
 ## 5. Concluindo o projeto
 
