@@ -149,47 +149,23 @@ No modelo físico, os antes denominados atributos e campos, agora são chamados 
 
 ### **Preenchendo as tabelas**
 
-<spam style="display: flex">
-    <img src="Imagens/cliente.jpg" style="padding-bottom: 15px">
-    <p style="padding-left: 15px">
-        A <u>tabela cliente</u> possui dados que receberão apenas o tipo varchar, isso porque os dados são essencialmente alfanuméricos. Inclusive o telefone, que pode receber símbolos como hífen e parênteses.
-    </p>
-</spam>
+![Tabela cliente](Imagens/cliente.jpg)
+A `tabela cliente` possui dados que receberão apenas o tipo varchar, isso porque os dados são essencialmente alfanuméricos. Inclusive o telefone, que pode receber símbolos como hífen e parênteses.
 
-<spam style="display: flex">
-    <p style="padding-right: 15px">
-        As tabelas <u>item_pedido</u> e <u>pedido</u> possuem dados em varchar, inteiro e decimal. Isso porque elas possuem chave primária (para a tabela pedido). A quantidade de item do pedido recebe um valor inteiro porque não existe "meio" item. E recebem o tipo decimal no valor do item e no valor do pedido.
-    </p>
-    <img src="Imagens/pedido.jpg" style="padding-bottom: 15px">
-</spam>
+![Tabelas item e pedido](Imagens/pedido.jpg)
+As tabelas `item_pedido` e `pedido` possuem dados em varchar, inteiro e decimal. Isso porque elas possuem chave primária (para a tabela pedido). A quantidade de item do pedido recebe um valor inteiro porque não existe "meio" item. E recebem o tipo decimal no valor do item e no valor do pedido.
 
-<spam style="display: flex">
-    <img src="Imagens/livro.jpg" style="padding-bottom: 15px">
-    <p style="padding-left: 15px">
-        A <u>tabela livro</u> recebe varchar de 10, 25 e 50 caracteres em algumas colunas, inteiros para o ano de publicação do livro e no código ISBN, e decimal para o valor do livro. Sem possibilidade de valores nulos no registro.
-    </p>
-</spam>
+![Tabela livro](Imagens/livro.jpg)
+A `tabela livro` recebe varchar de 10, 25 e 50 caracteres em algumas colunas, inteiros para o ano de publicação do livro e no código ISBN, e decimal para o valor do livro. Sem possibilidade de valores nulos no registro.
 
-<spam style="display: flex">
-    <p style="padding-right: 15px">
-        A <u>tabela editora</u>, por ser uma entidade forte, recebe sua chave primária. Nome de contato e e-mail com varchar de 50 caracteres. E, diferente da tabela cliente, ao menos um número de telefone precisa ser registrado, no tipo varchar com 14 caracteres cada.
-    </p>
-    <img src="Imagens/editora.jpg" style="padding-bottom: 15px">
-</spam>
+![Tabela editora](Imagens/editora.jpg)
+A `tabela editora`, por ser uma entidade forte, recebe sua chave primária. Nome de contato e e-mail com varchar de 50 caracteres. E, diferente da tabela cliente, ao menos um número de telefone precisa ser registrado, no tipo varchar com 14 caracteres cada.
 
-<spam style="display: flex">
-    <img src="Imagens/estoque.jpg" style="padding-bottom: 15px">
-    <p style="padding-left: 15px">
-        A <u>tabela estoque</u> recebe, inicialmente, apenas a quantidade de estoque. Quando forem feitas as ligações, ela passará a possuir duas chaves estrangeiras: os códigos do livro e da editora.
-    </p>
-</spam>
+![Tabela estoque](Imagens/estoque.jpg)
+A `tabela estoque` recebe, inicialmente, apenas a quantidade de estoque. Quando forem feitas as ligações, ela passará a possuir duas chaves estrangeiras: os códigos do livro e da editora.
 
-<spam style="display: flex">
-    <p style="padding-left: 15px">
-        As tabelas <u>pessoa física</u> e <u>pessoa jurídica</u> levam o mesmo princípio do estoque. Receberão uma chave primária da tabela cliente. E possuem colunas em varchar com 15 e 20 caracteres, respectivamente.
-    </p>
-    <img src="Imagens/pf_pj.jpg" style="padding-bottom: 15px">
-</spam>
+![Tabelas pf e pj](Imagens/pf_pj.jpg)
+As tabelas `pessoa física` e `pessoa jurídica` levam o mesmo princípio do estoque. Receberão uma chave primária da tabela cliente. E possuem colunas em varchar com 15 e 20 caracteres, respectivamente.
 
 ## 5. Concluindo o projeto
 
